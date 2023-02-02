@@ -9,5 +9,26 @@
 </head>
 <body>
     <h1>This is what i did extra</h1>
+<div style="text-align: left;">
+
+    <p style="text-align: left;">
+        <span><</span>VirtualHost *:80<span>></span> </p>
+        <p class="tab">   DocumentRoot "/var/www/html/skillcheck1"   </p>
+        <p class="tab">   ServerName 52.87.224.215</p>
+    
+        <p class="tab">   Alias /aunt /var/www/html/skillcheck1/bobyouraunt</p>
+        <p class="tab">  Alias /uncle /var/www/html/skillcheck1/bobyouruncle </p>
+        <p class="tab">  Alias /nephew /var/www/html/skillcheck1/bobyournephew </p>
+    
+    
+        <p style="text-align: left;"> <span><</span><span>/</span>VirtualHost <span>></span> </p>
+
+    </div>
+    <p>I added these lines of code to the /etc/httpd/conf/httpd.conf file</p>
+    <p>I wanted to make it so you could have alternate routes to the files instead of forcing the user to see the entire file structure</p>
+    <p>Not required in this context but useful later on potentially if I wanted to have two different applications running on the same server</p>
+    <p>So if you go to 52.87.224.215/uncle is routes to the uncle page</p>
+    <p>If you go to 52.87.224.215/aunt is routes to the aunt page</p>
+    <p>If you go to 52.87.224.215/nephew is routes to the nephew page</p>
 </body>
 </html>
