@@ -1,0 +1,8 @@
+/var/www/html/
+└── skillcheck1
+    ├── bobyouruncle
+    │   └── index.html
+    ├── css
+    │   └── style.css
+    ├── index.html
+    └── tree.txt
